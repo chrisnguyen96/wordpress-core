@@ -1,0 +1,13 @@
+// Import Font Rebond Grotesque
+@include font-face(Rebond Grotesque, "~assets/fonts/Rebond Grotesque/RebondGrotesque-Light", 300);
+@include font-face(Rebond Grotesque, "~assets/fonts/Rebond Grotesque/RebondGrotesque-Regular", 400);
+@include font-face(Rebond Grotesque, "~assets/fonts/Rebond Grotesque/RebondGrotesque-Medium", 500);
+@include font-face(Rebond Grotesque, "~assets/fonts/Rebond Grotesque/RebondGrotesque-Semibold", 600);
+@include font-face(Rebond Grotesque, "~assets/fonts/Rebond Grotesque/RebondGrotesque-Bold", 700);
+
+//Import Font TT Commons
+@include font-face(TTCommons, "~assets/fonts/TTCommons/TTCommons-Light", 300);
+@include font-face(TTCommons, "~assets/fonts/TTCommons/TTCommons-Regular", 400);
+@include font-face(TTCommons, "~assets/fonts/TTCommons/TTCommons-Medium", 500);
+@include font-face(TTCommons, "~assets/fonts/TTCommons/TTCommons-Bold", 700);
+@include font-face(TTCommons, "~assets/fonts/TTCommons/TTCommons-Semibold", 600);

@@ -1,0 +1,16 @@
+{
+  "name": "wordpress-seed",
+  "version": "1.0.0",
+  "description": "Wordpress seed",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browserslist": "^4.5.4",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-sass": "^4.1.0"
+  },
+  "browserslist": [
+    "last 4 version"
+  ]
+}

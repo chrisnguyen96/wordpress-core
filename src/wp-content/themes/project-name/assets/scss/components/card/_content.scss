@@ -1,0 +1,17 @@
+.card-content{
+    
+    p{
+        font-family: $font-primary;
+        font-weight: 300;
+        font-size: 1.6rem;
+        line-height: 18px;
+        padding: 20px 0;
+    }
+    .sign-name{
+        font-family: $font-primary;
+        font-weight: 500;
+        font-size: 2rem;
+        line-height: 23px;
+        color: $color-primary;
+    }
+}

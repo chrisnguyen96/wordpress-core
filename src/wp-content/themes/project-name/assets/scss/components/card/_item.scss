@@ -1,0 +1,35 @@
+.card-item {
+    //width: 288px;
+    &__image{
+        height: 444px;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    &__content{
+        .button-red{
+            padding-top: 10px;
+            &:not(:last-child){
+                margin-right: 4px;
+            }
+            a{
+                font-family: $font-primary;
+                font-weight: normal;
+                font-size: 1.4rem;
+                line-height: 1.7rem;
+                white-space: nowrap;
+                padding: 2px 22px;
+                background: $color-primary;
+                border-radius: 5px;
+                color: $color-third;
+            }
+        }
+        h4{
+            color: $color-second;
+            padding-top: 10px;
+            font-size: $font-size-h4;
+        }
+    }
+}

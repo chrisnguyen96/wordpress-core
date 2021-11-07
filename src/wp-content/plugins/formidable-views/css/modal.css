@@ -1,0 +1,32 @@
+.frm-modal .postbox {
+	max-height: 600px;
+	overflow: hidden;
+}
+
+.frm-modal .postbox .frm_modal_top {
+	padding: 30px 20px;
+	position: relative;
+	border-bottom: 1px solid var(--grey-border);
+}
+
+.frm-modal .postbox .frm-modal-title {
+	display: inline-block;
+	font-size: 24px;
+	color: #282F36;
+}
+
+.frm-modal .postbox .frm-modal-title + div:last-child {
+	position: absolute;
+	right: 20px;
+	top: 37px;
+}
+
+.frm-modal .postbox .frm-modal-title + div:last-child a {
+	color: var(--grey);
+}
+
+.frm-modal .postbox > div.inside .cta-inside {
+	overflow-y: auto;
+	height: auto;
+	padding: 0 15px;
+}
